@@ -103,10 +103,19 @@ body {
   font-size: 16px;
   line-height: 19px;
 }
+.site-header__exchange-rates {
+  margin-right: 17px;
+}
 .site-header__actions {
   display: flex;
   flex-wrap: wrap;
   margin-left: auto;
+}
+.site-header__search-button {
+  margin-right: 22px;
+}
+.site-header__language-toggler {
+  margin-right: 24px;
 }
 /* LOGO */
 .logo {
@@ -123,7 +132,6 @@ body {
   align-items: center;
   padding: 0;
   margin: 0;
-  margin-left: 17px;
   list-style-type: none;
   color: #7A7A7A;
 }
@@ -137,7 +145,6 @@ body {
 .search-button {
   padding: 8px;
   border: none;
-  margin-right: 22px;
   border-radius: 5px;
   background-color: #fff;
 }
@@ -145,7 +152,6 @@ body {
 .language-toggler {
   padding: 10px;
   border: none;
-  margin-right: 24px;
   border-radius: 5px;
   background-color: #fff;
 }
