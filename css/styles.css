@@ -558,7 +558,7 @@ img {
 .news-list__more-wrapper {
   text-align: center;
 }
-.news-list__more-button {
+.button {
   padding: 10px 32px;
   border: none;
   border-radius: 5px;
@@ -571,7 +571,7 @@ img {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.news-list__more-button:hover {
+.button:hover {
   background-color: rgba(41, 80, 147, 0.8);
 }
 /* SITE-FOOTER */
