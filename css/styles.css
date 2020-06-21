@@ -10,7 +10,9 @@
 /* 9. TELEGRAM-SUB */
 /* 10. SITENAV */
 /* 10. TOP-BANNER */
-/* 10. KEYFRAMES */
+/* SITE-FOOTER */
+/* MEDIA QUERIES */
+/* KEYFRAMES */
 
 /* FONTS */
 @font-face {
@@ -262,6 +264,30 @@ img {
 /* TOP-BANNER */
 .top-banner__link {
   display: flex;
+}
+/* SITE-FOOTER */
+.site-footer {
+  padding: 18px 0;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #295093;
+  color: #fff;
+}
+.site-footer__top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.site-footer__logo {
+  display: flex;
+  padding: 10px;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: #133C82;
+}
+.site-footer__sub-text {
+  margin: 0;
+  margin-right: 17px;
 }
 /* MEDIA QUERIES */
 @media (max-width: 1000px) {
